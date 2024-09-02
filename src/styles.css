@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: black;
+    color: white
+}
+
+h1, h2, h3, h4, h5, p, a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    bottom: 10px;
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+  }

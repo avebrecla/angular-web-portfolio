@@ -1,35 +1,25 @@
-.logo img {
-  padding: 30px 0;
+nav {
   width: 100%;
-}
-
-.resource-list {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: larger;
-  padding: 10px;
-  text-align: center;
-}
-
-.resource-list ul {
-    text-align: left;
-    margin: 0 auto;
-    width: 300px;
-}
-
-.resource-list a {
-  color: black;
-  line-height: 30px;
-}
-
-footer {
-  bottom: 10px;
-  font-family: Helvetica, Arial, sans-serif;
   margin: 0 auto;
-  width: 100%;
-  position: fixed;
   text-align: center;
+  position: absolute;
+  top: 25%;
 }
 
-footer img {
-    width: 20px;
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+button {
+  
+}
+
+@media(min-width: 900px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
 }
