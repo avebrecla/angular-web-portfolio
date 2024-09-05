@@ -14,6 +14,20 @@ constructor(
 ) {}
 
   title = 'Avery Clark';
+  tiles = [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ];
 
   goTo(page: string) {
     this.router.navigate([page], { relativeTo: this.route });

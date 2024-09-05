@@ -1,10 +1,8 @@
-<nav>
-  <ul role="menubar">
-    <li role="none"><button role="menuitem" (click)="goTo('')">About Me</button></li>
-    <li role="none"><button role="menuitem" (click)="goTo('recipes')">Recipes</button></li>
-    <li role="none"><button role="menuitem" (click)="goTo('travel-blog')">Travel Blog</button></li>
-  </ul>
-</nav>
-<footer class="footer">
-  a certified Avery production
-</footer>
+<div class="parent">
+  <div *ngFor="let tile of tiles" class="child"></div>
+</div> 
+<div class="bottombar">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div> 
