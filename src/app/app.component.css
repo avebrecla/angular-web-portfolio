@@ -1,11 +1,34 @@
+.bg-lines {
+  height: 100%;
+  width:85%;
+  margin-left: auto;
+  margin-right: auto;
+  background: 
+    repeating-linear-gradient(
+      to bottom,
+      #f7f7f7 0px,
+      #f7f7f7  2px,
+      #e2e2e2 2px,
+      #e2e2e2 8px
+    )
+}
+
+.bg-gradient {
+  height: 100%;
+  width: 100%;
+  background: 
+    linear-gradient(
+      to left,
+      transparent, #f7f7f7 42%, #f7f7f7 58%, transparent
+    ); 
+}
+
 .bottombar {
   background-color: #c0c0c0;
-  overflow: hidden;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 15rem;
-  margin-top: 300px;
 }
 
 /* Style the links inside the navigation bar */
@@ -14,8 +37,8 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
+  margin: 5rem, 0, 5rem, 0;;
 }
 
 /* Change the color of links on hover */
@@ -32,19 +55,21 @@
 
 .parent {
   display: grid;
-  padding-top: 3rem;
-  padding-left: 18rem;
-  padding-right: 18rem;
-  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  padding: 3rem 12rem;
+  overflow: hidden;
 }
 
 .child {
-    background-color: #FAF9F6;
-    height:10rem;
-    width:18rem;
-    border-radius: 5%;
-    border: 10px solid #c0c0c0;
+  background-color: #FAF9F6;
+  height:10rem;
+  width:18rem;
+  border-radius: 10% / 10%;
+  border: 4px solid #adadad;
+  margin-left: auto;
+  margin-right: auto;
 }
