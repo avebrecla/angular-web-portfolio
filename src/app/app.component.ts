@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,8 @@ export class AppComponent {
 
 constructor(
   private router: Router,
-  private route: ActivatedRoute
+  private route: ActivatedRoute,
+  private datePipe: DatePipe
 ) {}
 
   title = 'Avery Clark';
@@ -26,11 +28,9 @@ constructor(
     {},
     {},
     {},
-    {},
-    {},
-    {},
     {}
   ];
+  currentDate = new Date();
 
   goTo(page: string) {
     this.router.navigate([page], { relativeTo: this.route });

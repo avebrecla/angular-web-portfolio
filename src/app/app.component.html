@@ -4,9 +4,14 @@
       <div *ngFor="let tile of tiles" class="child"></div>
     </div> 
     <div class="bottombar">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
+      <div class="circleBttn">
+        <button>left</button>
+      </div>
+      <div>
+        <h2 class="date"><b>{{ currentDate | date : 'EEE MM/dd'}}</b></h2>
+      </div>
+      <div class="circleBttn">
+        <button>right</button>
     </div>
   </div>
 </div>

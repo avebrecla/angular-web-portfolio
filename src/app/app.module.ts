@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TravelBlogOverview } from './overviews/travel-blog/travel-blog-overview.component';
 import { RecipeOverview } from './overviews/recipes/recipe-overview.component';
 import { PageNotFound } from './page-not-found/page-not-found.component';
+import { DatePipe } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { PageNotFound } from './page-not-found/page-not-found.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
