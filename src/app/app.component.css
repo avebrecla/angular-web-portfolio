@@ -78,12 +78,14 @@
   border: 2px solid #42BAEA;
   box-shadow: 0 10px 20px #757575 inset;
   background-color: #D2D2D2;
+  margin: 30px;
 }
 
-.homeBttn {
-
-}
-
-.mailBttn {
-  
+.center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
