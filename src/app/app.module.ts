@@ -7,10 +7,12 @@ import { TravelBlogOverview } from './overviews/travel-blog/travel-blog-overview
 import { RecipeOverview } from './overviews/recipes/recipe-overview.component';
 import { PageNotFound } from './page-not-found/page-not-found.component';
 import { DatePipe } from '@angular/common';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
     TravelBlogOverview,
     RecipeOverview,
     PageNotFound

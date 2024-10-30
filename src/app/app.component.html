@@ -1,18 +1,1 @@
-<div class="bg-lines">
-  <div class="bg-gradient">
-    <div class="parent">
-      <div *ngFor="let tile of tiles" class="child"></div>
-    </div> 
-    <div class="bottombar">
-      <div class="circleBttn">
-        <input class="center" type="image" src="assets/home.png" alt="home icon" width="80" height="80">
-      </div>
-      <div>
-        <h2 class="date"><b>{{ currentDate | date : 'EEE MM/dd'}}</b></h2>
-      </div>
-      <div class="circleBttn">
-        <a href="mailto:avebrecla@gmail.com"><img class="center" src="assets/email.png" alt="email icon" width="80" height="80"></a>
-      </div>
-    </div>
-  </div>
-</div>
+<router-outlet></router-outlet>
