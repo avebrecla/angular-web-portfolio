@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Recipe } from 'src/app/models/recipe';
 
 @Component({
   selector: 'recipe-overview',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./recipe-overview.component.css']
 })
 export class RecipeOverview {
-  title = 'angular-quickstart';
+  recipes: Recipe[] = [];
+
+  constructor() { }
+
+  ngOnInit(): void {
+    
+  }
 }

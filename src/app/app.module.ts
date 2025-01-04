@@ -8,6 +8,7 @@ import { RecipeOverview } from './overviews/recipes/recipe-overview.component';
 import { PageNotFound } from './page-not-found/page-not-found.component';
 import { DatePipe } from '@angular/common';
 import { HomeComponent } from './home/home.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleMapsModule
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent]

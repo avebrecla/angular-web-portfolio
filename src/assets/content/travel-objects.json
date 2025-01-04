@@ -1,0 +1,89 @@
+[
+    {
+        "location": "Europe",
+        "travelData": [
+            {
+                "name": "Prague",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about Prague."
+            },
+            {
+                "name": "Vienna",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about."
+            },
+            {
+                "name": "Budapest",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about."
+            },
+            {
+                "name": "Madrid",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about."
+            },
+            {
+                "name": "Valencia",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about."
+            },
+            {
+                "name": "Barcelona",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about."
+            },
+            {
+                "name": "Genova",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about."
+            }
+        ]
+    },
+    {
+        "location": "Asia",
+        "travelData": [
+            {
+                "name": "Tokyo",
+                "country": "Japan",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about Tokyo."
+            },
+            {
+                "name": "Osaka",
+                "country": "Japan",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about Tokyo."
+            },
+            {
+                "name": "Kyoto",
+                "country": "Japan",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about Tokyo."
+            }
+        ]
+    },
+    {
+        "location": "North America",
+        "travelData": [
+            {
+                "name": "New York",
+                "country": "United States",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about Tokyo."
+            },
+            {
+                "name": "Chicago",
+                "country": "United States",
+                "backgroundImageUrl": "assets/cheffy2.PNG",
+                "htmlText": "This is some content about Tokyo."
+            }
+        ]
+    }
+]

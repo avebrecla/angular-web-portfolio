@@ -99,6 +99,11 @@
     background: url("src/assets/cheffy2.PNG");
     opacity: 1;
   }
+
+  .child-travel {
+    background: url("src/assets/cheffy2.PNG");
+    opacity: 1;
+  }
 }
 
 /* M and L mobile sizes */
@@ -165,6 +170,10 @@
     background: url("src/assets/cheffy2.PNG");
     opacity: 1;
   }
+  .child-travel {
+    background: url("src/assets/cheffy2.PNG");
+    opacity: 1;
+  }
 }
 
 /* S mobile sizes */
@@ -228,6 +237,11 @@
   } 
   
   .child-foods {
+    background: url("src/assets/cheffy2.PNG");
+    opacity: 1;
+  }
+
+  .child-travel {
     background: url("src/assets/cheffy2.PNG");
     opacity: 1;
   }
