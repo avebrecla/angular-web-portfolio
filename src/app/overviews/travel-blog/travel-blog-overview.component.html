@@ -9,7 +9,7 @@
         <h2>{{ travelSection.location }}</h2>
         <div class="image-grid">
             <div class="grid-item" *ngFor="let travelDatum of travelSection.travelData">
-                <a [routerLink]="">
+                <a routerLink="/travel-blog/{{ travelDatum.name }}">
                     <div class="image-container">
                         <img [src]="travelDatum.backgroundImageUrl" alt="{{ travelDatum.name }}">
                         <h3 class="overlay-title">{{ travelDatum.name }}</h3>

@@ -22,7 +22,7 @@ export class TravelBlogOverview {
   travelSections: TravelSection[] = travelDataJSON;
 
   images = [
-    'assets/cheffy2.PNG',
+    'assets/travel-images/prague/prague-scenic-castle.jpg',
     'assets/email.png',
     'assets/home.png',
   ];
