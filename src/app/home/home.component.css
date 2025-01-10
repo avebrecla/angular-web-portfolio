@@ -86,24 +86,6 @@
     margin-right: auto;
   }
 
-  .child-empty {
-    background: url("src/assets/static21.gif");
-  }
-  
-  .child-game {
-    background: url("src/assets/rotatingDisk.gif");
-    opacity: 1;
-  } 
-  
-  .child-foods {
-    background: url("src/assets/cheffy2.PNG");
-    opacity: 1;
-  }
-
-  .child-travel {
-    background: url("src/assets/cheffy2.PNG");
-    opacity: 1;
-  }
 }
 
 /* M and L mobile sizes */
@@ -157,23 +139,6 @@
     margin-right: auto;
   }
 
-  .child-empty {
-    background: url("src/assets/static21.gif");
-  }
-  
-  .child-game {
-    background: url("src/assets/rotatingDisk.gif");
-    opacity: 1;
-  } 
-  
-  .child-foods {
-    background: url("src/assets/cheffy2.PNG");
-    opacity: 1;
-  }
-  .child-travel {
-    background: url("src/assets/cheffy2.PNG");
-    opacity: 1;
-  }
 }
 
 /* S mobile sizes */
@@ -227,24 +192,6 @@
     margin-right: auto;
   }
 
-  .child-empty {
-    background: url("src/assets/static21.gif");
-  }
-  
-  .child-game {
-    background: url("src/assets/rotatingDisk.gif");
-    opacity: 1;
-  } 
-  
-  .child-foods {
-    background: url("src/assets/cheffy2.PNG");
-    opacity: 1;
-  }
-
-  .child-travel {
-    background: url("src/assets/cheffy2.PNG");
-    opacity: 1;
-  }
 }
 
 
@@ -255,4 +202,23 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.child-empty {
+  background: url("src/assets/static21.gif");
+}
+
+.child-game {
+  background: url("src/assets/rotatingDisk.gif");
+  opacity: 1;
+} 
+
+.child-foods {
+  background: url("src/assets/cheffy2.PNG");
+  opacity: 1;
+}
+
+.child-travel {
+  background: url("src/assets/bilbz.gif");
+  opacity: 1;
 }

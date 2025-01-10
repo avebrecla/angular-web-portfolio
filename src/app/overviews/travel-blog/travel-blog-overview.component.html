@@ -1,23 +1,28 @@
-<div class="blog-nav">
-    <div class="header">
-        <img [src]="images[currentImageIndex]" alt="Header Image">
+<div class="halftone">
+    <div class="blog-nav">
+        <div class="nav">
+            <button class="home-button" (click)="goHome()"><i class="fa fa-arrow-left"></i> Home</button>
+        </div>
+        <div class="header">
+            <img [src]="images[currentImageIndex]" alt="Header Image">
+        </div>
     </div>
-</div>
 
-<div class="blog-container">
-    <div class="section-container" *ngFor="let travelSection of travelSections">
-        <h2>{{ travelSection.location }}</h2>
-        <div class="image-grid">
-            <div class="grid-item" *ngFor="let travelDatum of travelSection.travelData">
-                <a routerLink="/travel-blog/{{ travelDatum.name }}">
-                    <div class="image-container">
-                        <img [src]="travelDatum.backgroundImageUrl" alt="{{ travelDatum.name }}">
-                        <h3 class="overlay-title">{{ travelDatum.name }}</h3>
-                    </div>
-                    <div class="text-container">
-                        <p>{{ travelDatum.htmlText }}</p>
-                    </div>
-                </a>
+    <div class="blog-container">
+        <div class="section-container" *ngFor="let travelSection of travelSections">
+            <h2>{{ travelSection.location }}</h2>
+            <div class="image-grid">
+                <div class="grid-item" *ngFor="let travelDatum of travelSection.travelData">
+                    <a routerLink="/travel-blog/{{ travelDatum.name }}">
+                        <div class="image-container">
+                            <img [src]="travelDatum.backgroundImageUrl" alt="{{ travelDatum.name }}">
+                            <h2 class="overlay-title">{{ travelDatum.name }}</h2>
+                        </div>
+                        <div class="text-container">
+                            <p>{{ travelDatum.htmlText }}</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

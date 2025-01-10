@@ -6,43 +6,55 @@
                 "name": "Prague",
                 "country": "Europe",
                 "backgroundImageUrl": "assets/travel-images/prague/prague-scenic-castle.jpg",
-                "htmlText": "This is some content about Prague."
+                "htmlText": "Can't decide what's Prague's defining quality... Their bubly spirit or their beer? Wait."
             },
             {
                 "name": "Vienna",
                 "country": "Europe",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "It does wait for you. But don't run to catch up, cause it's all about taking it slow here." 
             },
             {
                 "name": "Budapest",
                 "country": "Europe",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "Two cities, one river, and how many hairy guys at one hot spring?"
             },
             {
                 "name": "Madrid",
                 "country": "Europe",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "My first place abroad."
             },
             {
                 "name": "Valencia",
                 "country": "Europe",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "Birthplace of paella and the water gets you a bit tipsy."
             },
             {
                 "name": "Barcelona",
                 "country": "Europe",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "I know you heard of cryin at the club, but lost for 2 hours at the club? (GONE COVID)"
             },
             {
                 "name": "Genova",
                 "country": "Europe",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "The Ligurian port city. Boxed wine tastes like $18 and costs $1.50 on the beach."
+            },
+            {
+                "name": "Tuscany",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "Florence, Pisa, Lucca, Viareggio... and Montecatani Terme?"
+            },
+            {
+                "name": "Nice",
+                "country": "Europe",
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "Nice."
             }
         ]
     },
@@ -52,20 +64,20 @@
             {
                 "name": "Tokyo",
                 "country": "Japan",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about Tokyo."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "Putting mall food back on the map since day one."
             },
             {
                 "name": "Osaka",
                 "country": "Japan",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about Tokyo."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "Like Tokyo, but if it lowkey loved fairs and hot topic."
             },
             {
                 "name": "Kyoto",
                 "country": "Japan",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about Tokyo."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "The old capital. Home to the thousand gates and a few chubby stone statues of babies."
             }
         ]
     },
@@ -75,14 +87,14 @@
             {
                 "name": "New York",
                 "country": "United States",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about Tokyo."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "Sure it's grungy, but hallal cart food in central park on a summer day?"
             },
             {
                 "name": "Chicago",
                 "country": "United States",
-                "backgroundImageUrl": "assets/cheffy2.PNG",
-                "htmlText": "This is some content about Tokyo."
+                "backgroundImageUrl": "assets/under_const.jpg",
+                "htmlText": "Cold for most of the year, but best food in America for all of the year."
             }
         ]
     }
